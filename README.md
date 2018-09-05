@@ -25,7 +25,6 @@ Free. User inputs data and then downloads and prints.
 <strong>Code Example:</strong>
 <?php
 require('fpdf.php');
-
 $pdf = new FPDF();
 $pdf->AddPage();
 $pdf->SetFont('Arial','B',16);
