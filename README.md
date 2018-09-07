@@ -23,7 +23,7 @@ HTML, CSS. PHP, JavaScript, FPDF.
 <strong>Features:</strong>
 Free. User inputs data and then downloads and prints. 
 
-<strong>Code Example:</strong>
+<strong>Code Example:</strong></br>
 <?php
 require('fpdf.php');
 $pdf = new FPDF();
