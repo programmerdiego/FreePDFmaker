@@ -24,7 +24,7 @@ HTML, CSS. PHP, JavaScript, FPDF.
 Free. User inputs data and then downloads and prints. 
 
 <strong>Code Example:</strong>
-</br><br>
+</br>
 <?php
 require('fpdf.php');
 $pdf = new FPDF();
@@ -33,7 +33,7 @@ $pdf->SetFont('Arial','B',16);
 $pdf->Cell(40,10,'Hello World!');
 $pdf->Output();
 ?>
-</br>
+<br>
 <strong>Installation:</strong>
 Pending instructions.
 
